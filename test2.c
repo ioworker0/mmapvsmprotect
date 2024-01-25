@@ -5,7 +5,7 @@
 #include <time.h>
 
 #define PAGE_SIZE 4096
-#define NUM_ITERATIONS 1000
+#define NUM_ITERATIONS 100000
 
 void measure_mmap_time() {
     struct timespec start, end;
